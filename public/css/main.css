@@ -1,0 +1,379 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* отступ на высоту футера, чтобы было видно весь контент */
+    /*margin-bottom: 60px;*/
+}
+
+footer .text-muted {
+    margin: 20px 0;
+}
+
+body {
+    /*background-color: #cfcfcf;*/
+    /*background: url("../b3.png") fixed;*/
+    background: url("../congruent_outline.png");
+    /*background: url("../b25.png");*/
+    /*background-size: 100% 100%;*/
+    opacity: 0.9;
+    filter: Alpha(Opacity=90); /* support: IE8 */
+}
+
+.panel-response {
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.control-label {
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+#status-box {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 1050;
+    width: 100%;
+}
+
+#status-footer {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    z-index: 1050;
+    display: none;
+}
+
+.pagination {
+    margin: 0;
+}
+
+.table > tbody > tr > td {
+    padding: 1px;
+    vertical-align: middle;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+#info-block {
+    position: absolute;
+    bottom: 50px;
+    border-radius: 6px;
+    left: 0;
+    display: none;
+    z-index: 2000;
+}
+
+.wrapper {
+    padding-top: 3px;
+}
+
+.navbar-top-links {
+    margin-right: 0;
+}
+
+.navbar-top-links li {
+    display: inline-block;
+}
+
+.navbar-top-links li:last-child {
+    margin-right: 15px;
+}
+
+.last-menu-item {
+    margin-right: 15px;
+}
+
+.navbar-top-links li a {
+    padding: 15px;
+    /*min-height: 50px;*/
+}
+
+.navbar-top-links .dropdown-menu li {
+    display: block;
+}
+
+.navbar-top-links .dropdown-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-top-links .dropdown-menu li a {
+    padding: 3px 20px;
+    min-height: 0;
+}
+
+.navbar-top-links .dropdown-menu li a div {
+    white-space: normal;
+}
+
+.navbar-collapse.in {
+    overflow-y: visible;
+}
+
+.nav-tabs-justified > li > a {
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overfollow: elliplis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom: none; !important;
+    border-radius: 4px;
+
+    font-size: 0.9em;
+}
+
+.nav-tabs-justified > .active > a,
+.nav-tabs-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus {
+    border: none;  !important;
+    background-color: #66afe9;
+    /*background-color: #337ab7;*/
+    color: #fff;
+}
+
+
+.badge {
+    min-width: 30px;
+    border-radius: 5px;
+}
+
+.nav-tabs-justified > li > a {
+    outline: none;
+}
+
+.role-name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+th {
+    text-align: center;
+}
+
+.no-pad {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.screen-wnd {
+    overflow-y: auto;
+    /*min-height: 240px;*/
+    /*max-height: 240px;*/
+    /*!*height: 270px;*!*/
+}
+
+/* unstack tabs on small screen */
+@media (max-width: 992px) {
+    .nav-tabs-justified > li {
+        display: inline-block;
+        width: 150px;
+    }
+}
+
+@media (min-width: 768px) {
+    /*.screen-wnd {*/
+        /*min-height: 380px;*/
+        /*max-height: 380px;*/
+        /*!*height: 420px;*!*/
+    /*}*/
+}
+
+@media (min-width: 992px) {
+    /*.screen-wnd {*/
+        /*min-height: 510px;*/
+        /*max-height: 510px;*/
+        /*!*height: 550px;*!*/
+    /*}*/
+}
+
+@media (min-width: 1200px) {
+    /*.screen-wnd {*/
+        /*min-height: 610px;*/
+        /*max-height: 610px;*/
+        /*!*height: 650px;*!*/
+    /*}*/
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1380px;
+    }
+}
+
+.divider {
+    background-color: #e5e5e5;
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+}
+
+#devices {
+    min-height: 170px;
+    max-height: 170px;
+    overflow-y: auto;
+    padding: 7px 5px;
+    font-weight: bold;
+}
+
+.btn-group-ls > .btn, .btn-ls {
+    border-radius: 3px;
+    font-size: 10px;
+    line-height: 1.5;
+    margin-top: -3px;
+    padding: 1px 4px;
+}
+
+.dev-check {
+    display: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+}
+
+textarea.form-control {
+    resize: none;
+    height: 150px;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+textarea.reason {
+    height: 100px;
+    font-size: 1em;
+}
+
+/*::-webkit-scrollbar {*/
+    /*display: none;*/
+/*}*/
+
+.choice.active {
+    font-weight: bold;
+}
+
+.btn-group-justified a.btn,
+.btn-group-justified button, a.btn {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.resolution {
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.table input {
+    text-align: center;
+}
+
+.compact, .compact > [class*="col-"] {
+    padding: 7px;
+}
+
+.ui-autocomplete {
+    z-index: 3 !important;
+}
+
+.title {
+    font-size: 1.2em;
+}
+
+.nmnp {
+    margin: 0;
+    padding: 0;
+}
+
+a:focus, a:hover {
+    outline: none; !important;
+}
+
+/*.wrapper [class*="col-"] {*/
+    /*padding-left: 3px; !important;*/
+    /*padding-right: 3px; !important;*/
+/*}*/
+
+.alert input.form-control {
+
+    background: transparent;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a.btn-default {
+    background: none;
+}
+
+.modal-dialog-center {
+    margin-top: 15%;
+}
+
+.font-big {font-size: 1.2em;}
+.font-x2 {font-size: 2.0em;}
+.font-x3 {font-size: 3.0em;}
+.font-x4 {font-size: 4.0em;}
+.font-x5 {font-size: 5.0em;}
+
+.bootstrap-growl {
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    /*font-size: 1.3em;*/
+}
+
+.loading {
+    background: url("/public/spinner.gif") no-repeat center;
+}
+
+/* Для ячеек в заголовке панели стилизованными под заголовки таблицы
+   сделаем псевдо-кликабельный вид для сортировки ( js ) */
+.panel-heading.sortable [class*="col-"] {
+    cursor: pointer;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Перекрываем некоторые свойства слайдера для красивости */
+.slider.slider-horizontal {
+    margin-top: 7px;
+    width: 100%;
+    /*font-weight: bold;*/
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+/* Фиксы для свплывающей подсказки */
+.popover{
+    max-width: 100%; /* Max Width of the popover (depending on the container!) */
+    margin-left: -80px; !important;
+}
+
+.popover.bottom .arrow {
+    left:10% !important;
+}
+
+.wrapper [class*="col-"] {
+    padding-left: 3px;
+    padding-right: 3px;
+}
